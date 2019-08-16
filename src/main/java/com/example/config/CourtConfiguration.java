@@ -12,7 +12,7 @@ public class CourtConfiguration{
     @Bean
     public InternalResourceViewResolver internalResourceViewResolver(){
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        viewResolver.setPrefix("/WEB-INF/");
+        viewResolver.setPrefix("/");
         viewResolver.setSuffix(".html");
 
         return viewResolver;
